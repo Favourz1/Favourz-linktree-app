@@ -16,7 +16,7 @@ export default function MainContent (){
     return(
             <div className='main-content'>
                 <ProfileHeader/>
-               <div className='link-section-wrapper'>
+               <div className='links-section-wrapper'>
                {linkElements}
                </div> 
                <BodyFootnote/>
