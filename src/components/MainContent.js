@@ -11,6 +11,7 @@ export default function MainContent (){
         id={linkItem.id}
         href={linkItem.href}
         text={linkItem.linkName}
+        altText={linkItem.altText}
         />
     })
     return(
