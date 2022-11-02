@@ -14,6 +14,9 @@ code {
 }
 #root .App{
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .main-content{
@@ -52,6 +55,9 @@ code {
   position: absolute;
   right: 20%;
   top: 20%;
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid #EAECF0;   
 }
 
 .links-section-wrapper{
@@ -101,11 +107,13 @@ footer{
   font-size: 16px;
   line-height: 24px;
   color: #667085;
+  padding-top: 20px;
+  border-top: 1px solid #EAECF0;
 }
 
 footer img{
-  width: 32px;
-  height: 32px;
+  width: 95px;
+  height: 42px;
   max-width: 70vw;
   flex-grow: 0 !important;
 }
