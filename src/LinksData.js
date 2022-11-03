@@ -34,6 +34,13 @@ const data = [
             linkName: "Design Books",
             href: "https://books.zuri.team/design-rules",
             altText: "The free design book offered by Zuri"
+        },
+        {
+            id: "contact",
+            linkName: "Contact",
+            href: "/contact",
+            link: "/contact",
+            altText: "Contact Me"
         }
 ]
 
