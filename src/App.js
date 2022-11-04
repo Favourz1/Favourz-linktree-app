@@ -12,7 +12,7 @@ function App() {
         <Routes>
             <Route exact path="/"  element={<HomePage />} />
             <Route path="/contact" element={<ContactPage />} />
-            <Route path='error' element={<ErrorPage />} />
+            <Route path='/error' element={<ErrorPage />} />
           </Routes>
          <Footer/>
     </div>
